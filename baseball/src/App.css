@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+button {
+  width: 150px;
+  height: 40px;
+  border: 1px solid black;
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.display {
+  margin: 0 auto;
+  margin-top: 100px;
+  width: 600px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.controls {
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+.display,
+.point-box {
+  border: 10px solid black;
+  border-radius: 15px;
+}
+
+.point-box {
+  height: 80%;
+  width: 40%;
+}
+
+.point-box h2 {
+  font-size: 80px;
+}
